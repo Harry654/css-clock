@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(59, 51, 51);
+  animation: shine 1s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shine {
+  0% {
+    background-color: rgb(59, 51, 51);
+  }
+  100% {
+    background-color: yellow;
+  }
+}
